@@ -74,10 +74,10 @@
 		C4C93AC8164DA8BA007E5341 /* RTBandwidth */ = {
 			isa = PBXGroup;
 			children = (
-				5A2D84981695D18100A5808D /* bwidth.1 */,
 				5A2D84921695D15B00A5808D /* main.m */,
 				5A2D84931695D15B00A5808D /* RTBandwidthView.h */,
 				5A2D84941695D15B00A5808D /* RTBandwidthView.m */,
+				5A2D84981695D18100A5808D /* bwidth.1 */,
 				C4C93ACB164DA8BA007E5341 /* Supporting Files */,
 			);
 			name = RTBandwidth;
@@ -208,7 +208,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "bandwithd/RTBandwidth-Prefix.pch";
+				GCC_PREFIX_HEADER = "bandwidth/RTBandwidth-Prefix.pch";
 				PRODUCT_NAME = bwidth;
 			};
 			name = Debug;
@@ -217,7 +217,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "bandwithd/RTBandwidth-Prefix.pch";
+				GCC_PREFIX_HEADER = "bandwidth/RTBandwidth-Prefix.pch";
 				PRODUCT_NAME = bwidth;
 			};
 			name = Release;
